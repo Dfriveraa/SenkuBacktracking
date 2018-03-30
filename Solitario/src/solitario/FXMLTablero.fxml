@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="418.0" maxWidth="504.0" minHeight="400.0" minWidth="500.0" prefHeight="402.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="solitario.FXMLTableroController">
+   <children>
+      <Button fx:id="btn02" layoutX="100.0" layoutY="49.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn03" layoutX="150.0" layoutY="49.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn04" layoutX="200.0" layoutY="49.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn12" layoutX="100.0" layoutY="99.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn13" layoutX="150.0" layoutY="99.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn14" layoutX="200.0" layoutY="99.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn20" layoutY="149.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn21" layoutX="50.0" layoutY="149.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn22" layoutX="100.0" layoutY="149.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn23" layoutX="150.0" layoutY="149.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn24" layoutX="200.0" layoutY="149.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn25" layoutX="250.0" layoutY="149.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn26" layoutX="300.0" layoutY="149.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn30" layoutY="199.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn31" layoutX="50.0" layoutY="199.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn32" layoutX="100.0" layoutY="199.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn33" layoutX="150.0" layoutY="199.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn34" layoutX="200.0" layoutY="199.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn35" layoutX="250.0" layoutY="199.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn36" layoutX="300.0" layoutY="199.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn40" layoutY="249.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn41" layoutX="50.0" layoutY="249.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn42" layoutX="100.0" layoutY="249.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn43" layoutX="150.0" layoutY="249.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn44" layoutX="200.0" layoutY="249.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn45" layoutX="250.0" layoutY="249.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn46" layoutX="300.0" layoutY="249.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn52" layoutX="100.0" layoutY="299.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn53" layoutX="150.0" layoutY="299.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn54" layoutX="200.0" layoutY="299.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn62" layoutX="100.0" layoutY="349.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn63" layoutX="150.0" layoutY="349.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Button fx:id="btn64" layoutX="200.0" layoutY="349.0" mnemonicParsing="false" onAction="#ponerPieza" prefHeight="50.0" prefWidth="50.0" style="-fx-background-image: url('file:src/IMG/CFondo.png')" />
+      <Line endX="50.0" endY="-50.0" layoutX="301.0" layoutY="49.0" startX="50.0" startY="350.0" />
+      <Line endX="400.0" layoutX="100.0" layoutY="49.0" startX="-100.0" />
+      <Label layoutX="90.0" layoutY="8.0" text="Solitario ingles">
+         <font>
+            <Font name="Times New Roman" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="10.0" text="Movimientos">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="Acción" layoutX="438.0" layoutY="374.0" mnemonicParsing="false" onAction="#iniciar" text="Aceptar" />
+      <TextArea fx:id="textoSol" editable="false" layoutX="362.0" layoutY="59.0" prefHeight="281.0" prefWidth="123.0">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </TextArea>
+      <ComboBox fx:id="selecModo" layoutX="362.0" layoutY="337.0" onAction="#seleccion" prefHeight="25.0" prefWidth="123.0" promptText="Seleccion" />
+   </children>
+</AnchorPane>
